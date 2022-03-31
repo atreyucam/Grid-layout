@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+    height: 150px;
+    background-color: palevioletred;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.item1{
+    background-color: papayawhip;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.sub-item{
+    background-color: paleturquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
